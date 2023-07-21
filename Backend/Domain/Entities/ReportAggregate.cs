@@ -6,10 +6,6 @@ using System.Threading.Tasks;
 
 namespace Domain.Entities
 {
-    /// <summary>
-    /// Aggregate of Fire Reports corresponding to a certain
-    ///  location name, in a certain county.
-    /// </summary>
     public class ReportAggregate : Entity
     {
         public string name { get; set; }
